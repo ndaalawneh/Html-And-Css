@@ -1,20 +1,48 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>
-            Excersise #3 -Registration form(2)
-        </title>
-    </head>
-    <body>
-        <form>
-            <h2>Registration Form</h2>
-            <table>
-                <tr>
-                    <th></th>
-                    <td>personal</td>
-                </tr>
-            </table>
+        <title>Excersise #1 -LOg in Form</title>
 
+    </head>
+    
+        <form>
+            <fieldset >
+                <table> 
+                    <legend >personal details
+                        <tr>
+                            <td><label>First Name</label></td>
+                        </tr>
+                        <td><input type="text"/><br /><br /> </td>
+                        <tr>
+                            <td><label>Last name</label></td>
+                        </tr>
+                        <td><input type="text"/><br /><br /> </td>
+                        <tr>
+                            <td><label>Email adress</label></td>
+                        </tr>
+                        <td><input type="text"/><br /><br /> </td>
+
+                    </legend>
+                </table>
+                
+                Gender <input type="radio" name=" Gender" value="Male"> Male
+                <input type="radio" name="Gender" value="Female"> Female
+
+            </fieldset>
+
+            <fieldset>
+                <table>
+                    <legend>city
+                        <tr>
+                            <td>city<select> <option value="Amman">Amman</option> </td>
+                        </tr>
+
+                    </legend>
+
+    
+                </table>
+            </fieldset>
+            <input type="button" value="subscribe">
         </form>
     </body>
 </html>
