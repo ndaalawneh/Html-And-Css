@@ -1,0 +1,26 @@
+.a
+{
+        display: inline-block;
+        background-color: yellow;
+         height:35px;
+         width: 35px;
+         border: 1px solid black;
+         color: yellow;
+        
+         
+         
+}
+.b
+{
+        display: inline-block;
+        background-color: rgb(4, 110, 4);
+        width: 35px;
+        height: 35px;
+        border: 1px solid black;
+        color: rgb(4, 110, 4);
+        position: relative;
+        top: 17.5px;
+}
+p{
+        margin: 3px;
+}

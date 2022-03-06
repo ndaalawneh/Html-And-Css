@@ -1,0 +1,63 @@
+body
+{
+    background-color: rgb(238, 238, 198);
+    
+}
+
+* 
+{
+    box-sizing: border-box;
+}
+
+header {
+    background-color: rgb(226, 214, 43);
+    font-size: x-large;
+    color: black;
+    width: 80%;
+    height: 100px;
+    font-weight: bold;
+    margin:0px auto ;
+
+}
+
+section::after {
+    content: "";
+    display: table;
+    clear: both;
+    width: 80%;
+      height: auto;
+}
+/* Create two columns/boxes that floats next to each other */
+article {
+      float: left;
+    width: 60%;
+    height: 650px;
+    background-color: white;
+    margin-left: 10%;
+    padding: 20px;
+   
+  }
+
+  nav {
+    float: left;
+    width: 20%;
+    height: 650px;
+    background-color: rgb(165, 164, 164);
+    padding: 20px;
+    
+}
+
+
+footer
+{
+    background-color: #777 ;
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+   
+}
+
+  
+
+
+  
