@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<head>
+  
+    <title>Exercise #1-Grid</title>
+    <style>
+    .box{
+        display: grid;
+        grid-template-columns: repeat(1 calc(100/3));
+        grid-template-rows: repeat(3 calc(100/4));
+        height: 600px;
+        width: 100%;
+    }
+
+    .a{
+        background-color: black;
+        grid-column-start: span 3;
+    }
+    .b{
+        background-color: orange;
+        grid-column-start: span 2;
+    }
+    .c{
+        background-color: green;
+        grid-column-start: span 1;
+    }
+    .d{
+        background-color: blue;
+        grid-column-start: span 3;
+    }
+    </style>
+</head>
+<body>
+    
+    <div class="box">
+        <div class="a"></div>
+        <div class="b"></div>
+        <div class="c"></div>
+        <div class="d"></div>
+    </div>
+</body>
+</html>
